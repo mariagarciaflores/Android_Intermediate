@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#f6128bb5">
 
     <EditText
         android:layout_width="match_parent"
@@ -13,6 +14,5 @@
         android:visibility="visible"
         android:inputType="text"
         android:background="#f6785ba0"
-        android:text="hola"
-        android:textColor="@color/primary_text_default_material_dark" />
+        android:textColor="#fff7fffa" />
 </LinearLayout>

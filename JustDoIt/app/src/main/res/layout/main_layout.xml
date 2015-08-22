@@ -38,14 +38,16 @@
             android:layout_height="wrap_content"
             android:id="@+id/hard_btn"
             android:src="@drawable/medio_image"
-            android:layout_marginLeft="@dimen/secondbtn" />
+            android:layout_marginLeft="@dimen/secondbtn"
+            android:background="@android:drawable/btn_default"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/daring_btn"
             android:src="@drawable/dificil_image"
-            android:layout_marginLeft="@dimen/thirdbtn" />
+            android:layout_marginLeft="@dimen/thirdbtn"
+            android:background="@android:drawable/btn_default"/>
     </LinearLayout>
 
 </LinearLayout>
