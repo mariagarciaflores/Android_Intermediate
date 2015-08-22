@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:background="#ce98a2de">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/go_image"
+            android:src="@drawable/go_view"
+            android:layout_gravity="center_horizontal"
+            android:onClick="getChallenge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:weightSum="2"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Challenge"
+            android:id="@+id/add_btn"
+            android:layout_gravity="bottom"
+            android:textStyle="normal|bold|italic"
+            android:layout_weight="1"
+            android:background="#f86d76a0"
+            android:textColor="#fff8fffd"
+            android:textAppearance="@color/primary_text_default_material_light"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Challenges"
+            android:id="@+id/show_btn"
+            android:layout_gravity="left|bottom"
+            android:textStyle="normal|bold|italic"
+            android:layout_weight="1"
+            android:background="#f86d76a0"
+            android:textColor="#fff8fffd"
+            android:textAppearance="@color/primary_text_default_material_light"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout>

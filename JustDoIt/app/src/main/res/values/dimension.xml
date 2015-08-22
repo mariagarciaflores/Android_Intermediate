@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="firtbtn">0dp</dimen>
+    <dimen name="secondbtn">100dp</dimen>
+    <dimen name="thirdbtn">200dp</dimen>
+</resources>

@@ -83,7 +83,7 @@ public class MapsActivity extends FragmentActivity {
 
     public List<ParseObject> getUpdateList() throws com.parse.ParseException {
         ParseQuery<ParseObject> query = ParseQuery.getQuery(CLASS_NAME);
-        query.whereEqualTo("Activated", true);
+        query.whereEqualTo("activated", true);
         final List<ParseObject> pharmaList = query.find();
         return pharmaList;
     }
