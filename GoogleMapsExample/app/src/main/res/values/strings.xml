@@ -2,6 +2,6 @@
     <string name="app_name">Buscafarma</string>
     <string name="title_activity_maps">Buscafarma</string>
 
-    <string name="parse_app_id">J6C51bQ3XHVrKlaiDvwRDEmPH083csq4thFjws42</string>
-    <string name="parse_client_key">fXtlrKN9xMZtm9hP5dC5kTqkwPLSBd2jgXArJwko</string>
+    <string name="parse_app_id"></string>
+    <string name="parse_client_key"></string>
 </resources>
